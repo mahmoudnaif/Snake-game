@@ -1,0 +1,7 @@
+# ninja log v5
+10	1473	7348021629562153	CMakeFiles/hello_sfml.dir/main.cpp.obj	361ad6c2752cd847
+972	1477	7348073008915202	hello_sfml.exe	432d25b27c346278
+29	1420	7348021629022062	CMakeFiles/hello_sfml.dir/mysnake.cpp.obj	145fbde4c383e6a6
+5	562	7347718590160792	CMakeFiles/hello_sfml.dir/testhead.cpp.obj	82c2762de2f43b58
+5	972	7348073003921562	CMakeFiles/hello_sfml.dir/snakegame.cpp.obj	6f76694d883fc481
+3	513	7348046761110197	CMakeFiles/hello_sfml.dir/Update.cpp.obj	d770da03ff3d367f
