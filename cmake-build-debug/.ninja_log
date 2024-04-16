@@ -1,7 +1,22 @@
 # ninja log v5
 5	2359	7349564434354445	CMakeFiles/hello_sfml.dir/main.cpp.obj	361ad6c2752cd847
-2466	3061	7349568979518450	hello_sfml.exe	f2d2b53c0325b420
 25	14237	7349483617736716	CMakeFiles/hello_sfml.dir/mysnake.cpp.obj	145fbde4c383e6a6
-7	2466	7349568973601891	CMakeFiles/hello_sfml.dir/snakegame.cpp.obj	6f76694d883fc481
-4	1859	7349565051659089	CMakeFiles/hello_sfml.dir/Update.cpp.obj	d770da03ff3d367f
+2466	3061	7349568979518450	hello_sfml.exe	f2d2b53c0325b420
 3	740	7348412588172265	CMakeFiles/hello_sfml.dir/Apple.cpp.obj	7079209d6bd5bde9
+4	1859	7349565051659089	CMakeFiles/hello_sfml.dir/Update.cpp.obj	d770da03ff3d367f
+7	2466	7349568973601891	CMakeFiles/hello_sfml.dir/snakegame.cpp.obj	6f76694d883fc481
+4	156	7349576124463361	build.ninja	7a9f765f0a5019ff
+22	837	7349576133097397	CMakeFiles/hello_sfml.dir/Apple.cpp.obj	252a7f37a17e3ed9
+18	838	7349576133117392	CMakeFiles/hello_sfml.dir/mysnake.cpp.obj	338a95587bba795f
+27	2237	7349576146827155	CMakeFiles/hello_sfml.dir/main.cpp.obj	8b447ee58d23a0cc
+14	2239	7349576146840515	CMakeFiles/hello_sfml.dir/Update.cpp.obj	f065eedca64b817
+10	2731	7349576152001851	CMakeFiles/hello_sfml.dir/snakegame.cpp.obj	64eadc6e1587cf2c
+2731	3263	7349576157259147	hello_sfml.exe	f2d2b53c0325b420
+5	586	7349577651312483	hello_sfml.exe	f2d2b53c0325b420
+6	579	7349578029799481	hello_sfml.exe	f2d2b53c0325b420
+9	3112	7349581070793658	CMakeFiles/hello_sfml.dir/Update.cpp.obj	f065eedca64b817
+3112	3996	7349581079529367	hello_sfml.exe	f2d2b53c0325b420
+11	859	7349582447707940	hello_sfml.exe	f2d2b53c0325b420
+10	966	7349583221857844	hello_sfml.exe	f2d2b53c0325b420
+8	876	7349583565153885	hello_sfml.exe	f2d2b53c0325b420
+12	876	7349583994452639	hello_sfml.exe	f2d2b53c0325b420

@@ -71,7 +71,7 @@ void SnakeGame::updateDirection() {
                 SnakeGame::numofSectionstobeadded++;
                 speed++;
                 numofApplesEated++;
-                if(numofApplesEated==1){
+                if(numofApplesEated==10){
                     nextLevel();
                 }
 
