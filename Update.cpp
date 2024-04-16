@@ -19,6 +19,11 @@ void SnakeGame::updateDirection() {
             directionQueue.pop_front();
         }
 
+                if(numofSectionstobeadded>0){
+                    SnakeGame::SnakeAdd();
+                    numofSectionstobeadded--;
+
+                }
 
             switch (snakeDirection) {
             case Directions::RIGHT:
@@ -58,10 +63,36 @@ void SnakeGame::updateDirection() {
             lastPos= firstPOS;
         }
             for(int i=0; i<snake.size(); i++){
-
                 snake[i].changepos();
             }
 
+            if(snake[0].getPos().x == myApple.getApple().getPosition().x&&
+            snake[0].getPos().y == myApple.getApple().getPosition().y){
+                SnakeGame::numofSectionstobeadded++;
+                speed++;
+                numofApplesEated++;
+                if(numofApplesEated==1){
+                    nextLevel();
+                }
+
+
+                SnakeGame::changeDirectionApple();
+
+            }
+
+            for(int i=1; i<snake.size(); i++){
+                if(snake[0].getPos().x == snake[i].getPos().x &&
+                snake[0].getPos().y == snake[i].getPos().y){
+                    currentGameState = GameState::gameOver;
+                }
+            }
+
+            for(int i=0; i<mywall.size(); i++){
+                if(mywall[i].getGlobalBounds().intersects(snake[0].getSnakeSection().getGlobalBounds())){
+                    currentGameState = GameState::gameOver;
+                    break;
+                }
+            }
 
             timeSinceLastMove= Time::Zero;
     }
