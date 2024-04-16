@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/My Projects/hello sfml/cmake-build-debug"
+			"value" : "c:/My Projects/Snake game/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/My Projects/hello sfml/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/My Projects/Snake game/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/My Projects/hello sfml"
+			"value" : "C:/My Projects/Snake game"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1399,7 +1399,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/My Projects/hello sfml/cmake-build-debug"
+			"value" : "C:/My Projects/Snake game/cmake-build-debug"
 		},
 		{
 			"name" : "hello_sfml_IS_TOP_LEVEL",
@@ -1423,7 +1423,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/My Projects/hello sfml"
+			"value" : "C:/My Projects/Snake game"
 		}
 	],
 	"kind" : "cache",
