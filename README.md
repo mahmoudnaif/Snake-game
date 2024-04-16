@@ -4,7 +4,7 @@ designed using SFML in c++
 You start the game on lvl 1 and you keep going untill you hit yourself or a secion of the wall.
 Speed gets higher each time you advance in a lvl or when you eat a delecious apple.
 
-#about the levels
+# about the levels
 the levels are stored in txt files. 𝒉𝒐𝒘 𝒅𝒐𝒆𝒔 𝒊𝒕 𝒘𝒐𝒓𝒌?
  The screen is designed to be 800:600 pixles.
  each wall section is 20:20px.
