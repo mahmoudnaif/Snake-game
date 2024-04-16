@@ -14,9 +14,11 @@ startnewgame();
 void SnakeGame::loadalllevels() {
     mylevels.clear();
     ifstream file("./levels.txt");
-    string x;
-    while(getline(file, x)){
-        mylevels.push_back(x);
+    if(file.is_open()) {
+        string x;
+        while (getline(file, x)) {
+            mylevels.push_back(x);
+        }
     }
     file.close();
 }
@@ -24,20 +26,28 @@ void SnakeGame::loadalllevels() {
 void SnakeGame::loadlevel() {
 
  ifstream levelO(mylevels[0]);
- mylevels.pop_front();
- string line="";
+ if(levelO.is_open()) {
+     numofApplesbeforenextlevel=10;
+     mylevels.pop_front();
+     string line = "";
 
- for(int r=0; r<30; r++){
-     if(getline(levelO, line)){
-     for(int c=0; c<line.length(); c++) {
-         if (line[c] == 'X') {
-             mywall.emplace_back(Vector2f(20, 20));
-             mywall[mywall.size() - 1].setFillColor(Color::White);
-             mywall[mywall.size() - 1].setPosition(Vector2f((c * 20), (r * 20)));
+     for (int r = 0; r < 30; r++) {
+         if (getline(levelO, line)) {
+             for (int c = 0; c < line.length(); c++) {
+                 if (line[c] == 'X') {
+                     mywall.emplace_back(Vector2f(20, 20));
+                     mywall[mywall.size() - 1].setFillColor(Color::White);
+                     mywall[mywall.size() - 1].setPosition(Vector2f((c * 20), (r * 20)));
+                 }
+             }
+
          }
      }
+ }
 
-     }
+ else{
+
+     numofApplesbeforenextlevel=10000;
  }
     levelO.close();
 

@@ -28,7 +28,7 @@ private:
     int numofSectionstobeadded;
 
     int currentGameState, lastGameState;
-    int numofApplesEated;
+    int numofApplesEated, numofApplesbeforenextlevel;
 public:
     enum Directions{UP, RIGHT, DOWN, LEFT};
     enum GameState{running, paused, gameOver};
