@@ -1,3 +1,0 @@
-C:/My Projects/Snake game/cmake-build-debug/CMakeFiles/hello_sfml.dir
-C:/My Projects/Snake game/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/My Projects/Snake game/cmake-build-debug/CMakeFiles/rebuild_cache.dir

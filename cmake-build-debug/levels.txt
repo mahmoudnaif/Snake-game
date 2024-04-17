@@ -1,2 +1,0 @@
-mylevels\level1.txt
-mylevels\level2.txt
