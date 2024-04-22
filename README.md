@@ -80,6 +80,30 @@ For more specific information about creating levels or troubleshooting, refer to
 2. Include necessary text (e.g., instructions, game status) for a more polished user experience.
 3. Provide a mode for users to create custom levels. While this is currently possible using text files, it would be more user-friendly to offer an interface for users to select blocks on the screen and generate a text file for the level.
 
+## Screenshots
+
+Here are some screenshots of the Snake Game:
+
+- **Main Page**:
+
+![Main Page](Screenshots/Mainpage.jpeg)
+
+- **Screen 01**:
+
+![Screen 01](Screenshots/Screen01.jpeg)
+
+- **Screen 02**:
+ 
+![Screen 02](Screenshots/Screen02.jpeg)
+
+- **Screen 03**:
+ 
+![Screen 03](Screenshots/Screen03.jpeg)
+
+- **Screen 04**:
+   
+![Screen 04](Screenshots/Screen04.jpeg)
+
 ## Contact
 
-For any questions or feedback, You can contact me via email at [mahmoudnaif788@gmail.com](mailto:mahmoudnaif788@gmail.com).
+For any questions or feedback, you can contact me via email at [mahmoudnaif788@gmail.com](mailto:mahmoudnaif788@gmail.com).
