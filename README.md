@@ -82,7 +82,7 @@ For more specific information about creating levels or troubleshooting, refer to
 
 ## Game Play
 
-![Main Page](screenshots/Animation.gif)
+![Main Page](screenshots/animation.gif)
 
 ## Contact
 
