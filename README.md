@@ -55,7 +55,7 @@ For more specific information about creating levels or troubleshooting, refer to
 
 - **SFML**: This project uses the Simple and Fast Multimedia Library (SFML). You need to have SFML installed on your system.
 - **CMake**: This project uses CMake for building and managing dependencies.
-- **note**: these are only important if you are planning to look on the source code, if you are just here to play you can dive right in and also you stil can add your own levels to the game using txt files us mentioned before.  
+- **note**: these are only important if you are planning to look on the source code, if you are just here to play you can dive right in and also you stil can add your own levels to the game using txt files as mentioned before.  
 ## Usage
 
 - Use the arrow keys to control the snake:
